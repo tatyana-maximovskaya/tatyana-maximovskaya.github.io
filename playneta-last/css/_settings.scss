@@ -1,0 +1,85 @@
+
+@font-face {
+  font-family: "WhitneyBook";
+  src: url("../fonts/WhitneyBook/WhitneyBook.eot");
+  src: url("../fonts/WhitneyBook/WhitneyBook.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/WhitneyBook/WhitneyBook.woff") format("woff"),
+  url("../fonts/WhitneyBook/WhitneyBook.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "WhitneyLight";
+  src: url("../fonts/WhitneyLight/WhitneyLight.eot");
+  src: url("../fonts/WhitneyLight/WhitneyLight.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/WhitneyLight/WhitneyLight.woff") format("woff"),
+  url("../fonts/WhitneyLight/WhitneyLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "WhitneyMedium";
+  src: url("../fonts/WhitneyMedium/WhitneyMedium.eot");
+  src: url("../fonts/WhitneyMedium/WhitneyMedium.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/WhitneyMedium/WhitneyMedium.woff") format("woff"),
+  url("../fonts/WhitneyMedium/WhitneyMedium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "WhitneySemiBold";
+  src: url("../fonts/WhitneySemiBold/WhitneySemiBold.eot");
+  src: url("../fonts/WhitneySemiBold/WhitneySemiBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/WhitneySemiBold/WhitneySemiBold.woff") format("woff"),
+  url("../fonts/WhitneySemiBold/WhitneySemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+%wrapper {
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+%area {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+
+}
+
+%button {
+  color: #fff;
+  background: #2D9EE0;
+  font-size: 16px;
+  text-align: center;
+  &:hover {
+    color: #fff;
+    //TODO: button hover behaviour
+  }
+}
+
+
+// Variables
+$navbar-height             : 100px;
+$navbar-item-height        : 60px;
+
+$navbar-collapse-breakpoint: 768px;
+
+$navbar-item-font-size:      16px;
+$navbar-item-color:          #7691A7;
+$navbar-item-active-color:   #333;
+$navbar-item-padding       : 20px;
+
+$main-color                : #7691A7;
+$section-header-color      : #3D4A5D;
+$highlight-item-color      : #FFD768;
+$divider-color             : #D1DDE7;
+$button-color              : #2D9EE0;
+$border-radius             : 10px;
+$footer-color              : #364457;
