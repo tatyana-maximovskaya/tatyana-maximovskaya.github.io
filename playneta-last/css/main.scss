@@ -477,6 +477,10 @@ main {
 
     }
 
+    &>button {
+      align-self: center;
+    }
+
   }
 
 }
@@ -492,11 +496,17 @@ main {
     margin-top: 75px;
 
     >.contact {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       max-height: 300px;
       max-width: 450px;
       text-align: center;
       >.contact-desc {
         font-size: 20px;
+      }
+      >button {
+        align-self: center;
       }
     }
   }

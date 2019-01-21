@@ -466,6 +466,9 @@ main > .projects > .slide-control > .item-active {
 #vacancies > .fav-vacancies > .vacancies-cards > .vacancy > .job-desc {
   font-size: 20px;
 }
+#vacancies > .fav-vacancies > button {
+  align-self: center;
+}
 
 #contacts {
   padding: 32px 0 90px 0;
@@ -479,12 +482,18 @@ main > .projects > .slide-control > .item-active {
   margin-top: 75px;
 }
 #contacts > .contact-cards > .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   max-height: 300px;
   max-width: 450px;
   text-align: center;
 }
 #contacts > .contact-cards > .contact > .contact-desc {
   font-size: 20px;
+}
+#contacts > .contact-cards > .contact > button {
+  align-self: center;
 }
 
 footer {
