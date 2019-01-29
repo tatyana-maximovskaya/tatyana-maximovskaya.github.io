@@ -500,8 +500,9 @@ main {
       flex-direction: column;
       justify-content: space-between;
       max-height: 300px;
-      max-width: 450px;
+      flex-basis: 450px;
       text-align: center;
+      margin: 0 40px;
       >.contact-desc {
         font-size: 20px;
       }

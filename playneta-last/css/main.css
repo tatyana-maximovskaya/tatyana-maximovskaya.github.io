@@ -486,8 +486,9 @@ main > .projects > .slide-control > .item-active {
   flex-direction: column;
   justify-content: space-between;
   max-height: 300px;
-  max-width: 450px;
+  flex-basis: 450px;
   text-align: center;
+  margin: 0 40px;
 }
 #contacts > .contact-cards > .contact > .contact-desc {
   font-size: 20px;
